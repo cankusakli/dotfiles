@@ -18,6 +18,9 @@ in
     neovim
     # the font everything renders in
     nerd-fonts.hack
+    # sourced manually from ~/.zshrc - zsh itself stays unmanaged, see below
+    zsh-autosuggestions
+    zsh-syntax-highlighting
   ];
   fonts.fontconfig.enable = true;
 
