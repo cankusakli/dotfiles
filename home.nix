@@ -38,4 +38,12 @@ in
 
   home.file.".claude/CLAUDE.md".source =
     config.lib.file.mkOutOfStoreSymlink "${dotfiles}/home/CLAUDE.md";
+
+  # Stable, fixed paths for ~/.zshrc to source manually - home-manager keeps
+  # these pointed at the right package version on every switch, so .zshrc
+  # never has to guess a nix store/profile path itself.
+  home.file.".config/zsh-plugins/zsh-autosuggestions.zsh".source =
+    "${pkgs.zsh-autosuggestions}/share/zsh/plugins/zsh-autosuggestions/zsh-autosuggestions.zsh";
+  home.file.".config/zsh-plugins/zsh-syntax-highlighting.zsh".source =
+    "${pkgs.zsh-syntax-highlighting}/share/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh";
 }
