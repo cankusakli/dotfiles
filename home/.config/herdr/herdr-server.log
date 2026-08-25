@@ -1,0 +1,35 @@
+2026-08-25T20:19:11.213004Z  INFO herdr::platform::macos: raised server file descriptor soft limit previous=2048 target=8192
+2026-08-25T20:19:11.213933Z  INFO herdr::api::server: api server listening path=/Users/bengisugultekinkusakli/.config/herdr/herdr.sock
+2026-08-25T20:19:11.214697Z  INFO herdr::app: using pane scrollback configuration pane_scrollback_limit_bytes=10000000
+2026-08-25T20:19:11.235123Z  INFO herdr::logging: checking for updates event="update.check.start" subsystem="update" outcome="started"
+2026-08-25T20:19:11.324661Z  INFO herdr::logging: spawning pane terminal event="pane.spawn.start" subsystem="pane" outcome="started" pane_id=1 rows=40 cols=120 scrollback_limit_bytes=10000000
+2026-08-25T20:19:11.327859Z  INFO herdr::logging: pane child spawned event="pane.spawned" subsystem="pane" outcome="ok" pane_id=1 pid=11817
+2026-08-25T20:19:11.328146Z  INFO herdr::logging: workspace created event="workspace.create" subsystem="workspace" outcome="ok" workspace_id="w1" pane_id=1
+2026-08-25T20:19:11.328176Z  INFO herdr::logging: workspace focused event="workspace.focus" subsystem="workspace" outcome="ok" workspace_id="w1"
+2026-08-25T20:19:11.328212Z  INFO herdr::logging: tab focused event="tab.focus" subsystem="tab" outcome="ok" workspace_id="w1" tab_id="w1:t1"
+2026-08-25T20:19:11.328247Z  INFO herdr::server::headless: created startup workspace cwd=/Users/bengisugultekinkusakli
+2026-08-25T20:19:11.328436Z  INFO herdr::server::headless: client protocol socket listening path=/Users/bengisugultekinkusakli/.config/herdr/herdr-client.sock
+2026-08-25T20:19:11.328455Z  INFO herdr::server::headless: herdr server started api_socket=/Users/bengisugultekinkusakli/.config/herdr/herdr.sock client_socket=/Users/bengisugultekinkusakli/.config/herdr/herdr-client.sock
+2026-08-25T20:19:11.328950Z  INFO herdr::logging: herdr starting event="app.startup" subsystem="server" outcome="started" pid=11760
+2026-08-25T20:19:11.583299Z  INFO herdr::server::headless: client connected client_id=2 cols=123 rows=39 cell_width_px=0 cell_height_px=0 render_encoding=SemanticFrame
+2026-08-25T20:19:16.330971Z  INFO herdr::logging: session saved event="persist.save" subsystem="persist" outcome="ok" path=/Users/bengisugultekinkusakli/.config/herdr/session.json workspaces=1
+2026-08-25T20:19:26.497828Z  INFO herdr::logging: spawning pane terminal event="pane.spawn.start" subsystem="pane" outcome="started" pane_id=2 rows=38 cols=97 scrollback_limit_bytes=10000000
+2026-08-25T20:19:26.502611Z  INFO herdr::logging: pane child spawned event="pane.spawned" subsystem="pane" outcome="ok" pane_id=2 pid=12145
+2026-08-25T20:19:26.502862Z  INFO herdr::logging: tab focused event="tab.focus" subsystem="tab" outcome="ok" workspace_id="w1" tab_id="w1:t1"
+2026-08-25T20:19:31.506658Z  INFO herdr::logging: session saved event="persist.save" subsystem="persist" outcome="ok" path=/Users/bengisugultekinkusakli/.config/herdr/session.json workspaces=1
+2026-08-25T20:19:43.203444Z  INFO herdr::logging: spawning pane terminal event="pane.spawn.start" subsystem="pane" outcome="started" pane_id=3 rows=38 cols=49 scrollback_limit_bytes=10000000
+2026-08-25T20:19:43.209942Z  INFO herdr::logging: pane child spawned event="pane.spawned" subsystem="pane" outcome="ok" pane_id=3 pid=12173
+2026-08-25T20:19:43.210294Z  INFO herdr::logging: tab focused event="tab.focus" subsystem="tab" outcome="ok" workspace_id="w1" tab_id="w1:t2"
+2026-08-25T20:19:45.799941Z  INFO herdr::logging: tab focused event="tab.focus" subsystem="tab" outcome="ok" workspace_id="w1" tab_id="w1:t1"
+2026-08-25T20:19:46.877947Z  INFO herdr::logging: tab focused event="tab.focus" subsystem="tab" outcome="ok" workspace_id="w1" tab_id="w1:t2"
+2026-08-25T20:19:48.781792Z  INFO herdr::logging: tab focused event="tab.focus" subsystem="tab" outcome="ok" workspace_id="w1" tab_id="w1:t1"
+2026-08-25T20:19:53.786332Z  INFO herdr::logging: session saved event="persist.save" subsystem="persist" outcome="ok" path=/Users/bengisugultekinkusakli/.config/herdr/session.json workspaces=1
+2026-08-25T20:20:09.973624Z  INFO herdr::logging: tab focused event="tab.focus" subsystem="tab" outcome="ok" workspace_id="w1" tab_id="w1:t1"
+2026-08-25T20:20:14.979024Z  INFO herdr::logging: session saved event="persist.save" subsystem="persist" outcome="ok" path=/Users/bengisugultekinkusakli/.config/herdr/session.json workspaces=1
+2026-08-25T20:20:37.640830Z  INFO herdr::logging: tab focused event="tab.focus" subsystem="tab" outcome="ok" workspace_id="w1" tab_id="w1:t1"
+2026-08-25T20:20:38.349171Z  INFO herdr::logging: tab focused event="tab.focus" subsystem="tab" outcome="ok" workspace_id="w1" tab_id="w1:t1"
+2026-08-25T20:20:38.940272Z  INFO herdr::logging: tab focused event="tab.focus" subsystem="tab" outcome="ok" workspace_id="w1" tab_id="w1:t1"
+2026-08-25T20:20:39.761361Z  INFO herdr::logging: tab focused event="tab.focus" subsystem="tab" outcome="ok" workspace_id="w1" tab_id="w1:t1"
+2026-08-25T20:20:41.814885Z  INFO herdr::logging: tab focused event="tab.focus" subsystem="tab" outcome="ok" workspace_id="w1" tab_id="w1:t2"
+2026-08-25T20:20:44.427663Z  INFO herdr::logging: tab focused event="tab.focus" subsystem="tab" outcome="ok" workspace_id="w1" tab_id="w1:t1"
+2026-08-25T20:20:49.432425Z  INFO herdr::logging: session saved event="persist.save" subsystem="persist" outcome="ok" path=/Users/bengisugultekinkusakli/.config/herdr/session.json workspaces=1
