@@ -12,7 +12,7 @@
 
   outputs = inputs@{ self, nix-darwin, home-manager, nixpkgs }:
     let
-      user = "bengisugultekinkusakli";
+      user = "cankusakli";
     in
     {
       darwinConfigurations."mac" = nix-darwin.lib.darwinSystem {
