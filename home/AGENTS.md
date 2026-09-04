@@ -1,6 +1,9 @@
 # global agent instructions
 
 - When writing commit messages, NEVER auto-add your agent name as co-author
+- Never use the em dash "—". Use plain dash "-" instead
+- When end-to-end testing a product, be picky about the UI you see and be obsessed with pixel perfection.
+If something clearly looks off, even if it is not directly related to what you are doing, try to get it fixed along the way.
 - Never manually modify CHANGELOG.md files or any files that are marked as auto-generated
 - When making technical decisions, do not give much weight to development cost.
   Instead, prefer quality, simplicity, robustness, scalability, and long term maintainability.
