@@ -35,6 +35,8 @@ in
 
   home.file.".claude/CLAUDE.md".source =
     config.lib.file.mkOutOfStoreSymlink "${dotfiles}/home/CLAUDE.md";
+  home.file.".claude/statusline.sh".source =
+    config.lib.file.mkOutOfStoreSymlink "${dotfiles}/home/.claude/statusline.sh";
 
   # Stable, fixed paths for ~/.zshrc to source manually - home-manager keeps
   # these pointed at the right package version on every switch, so .zshrc
